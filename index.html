@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<title>Glasgow Guide </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./my-styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<style>
+
+</style>
+
+<head>
+
+  <!-- Header -->
+
+  <header class="header" style="max-width:100%">
+    <div>
+      <h1 class="large-text">Glasgow</h1>
+    </div>
+    </header>
+</head>
+
+<body>
+
+  <div class="topnav">
+    <a href="#">Home</a>
+    <a href="./About_LK.html">About</a>
+  </div>
+
+
+  <br>
+
+<div style="overflow:auto">
+  <div class="leftcolumn">
+    <br>
+  </div>
+
+  <div class="content">
+   <h2>The City</h2>
+   <br>
+   <br>
+   <p>Glasgow is a port city on the River Clyde in Scotland. 
+    It's famed for its Victorian and art nouveau architecture, a rich legacy of the city's 18th–20th-century prosperity due to trade and shipbuilding. 
+    Today it's a national cultural hub, home to institutions including the Scottish Opera, Scottish Ballet and National Theatre of Scotland, as well as acclaimed museums and a thriving music scene.
+   </p>
+
+  <p>Follow <b><a title="Click here" href="https://www.lostglasgow.scot/" target="_blank"> this link </a></b> for information on Glasgow's past.</P>
+
+    <p>To find exciting things to do during your visit to Glasgow<b><a title="link" href="https://www.timeout.com/glasgow/things-to-do/best-things-to-do-in-glasgow" target="_blank"> click here</a>.</b></P>
+    
+      <p>My top 5 picks: </p>
+
+    <ol>
+      <li>See a gig at King Tut's</li>
+      <li>Visit the Barra's Art and Design (BAaD) venue and container yard to enjoy food, drink and entertainment</li>
+      <li>Wander the necropolis and take in panoramic views of the city centre</li>
+      <li>Head to Glasgow Green to visit the People's Palace and Templeton's Carpet Factory</li>
+      <li>Go for dinner on Ashton Lane</li>
+    </ol>
+
+      <p>One of Glasgow's main tourist attraction is Glasgow University's main building situated on the edge of Kelvingrove Park</p>
+      <img src="./images/glasgow-view.jpeg" alt="Glasgow Cathedral Image" style="width:95%">
+
+  
+
+  </div>
+
+<div class="right">
+  <br>
+</div>
+</div> 
+
+<div class="footer">
+  <p>You are visting this page, today: <b id="date"></b></p>
+  <p id="date"></p>
+  <script>
+    const d = new Date();
+    let text = d.toDateString();
+    document.getElementById("date").innerHTML = text; 
+  </script>
+</div>
+</body>
+</html>

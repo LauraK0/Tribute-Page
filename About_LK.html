@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<title>About the Glasgow Guide</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./my-styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<style>
+
+</style>
+
+<head>
+
+  <!-- Header -->
+
+  <header class="header" style="max-width:100%">
+    <div>
+      <h1 class="large-text">About</h1>
+    </div>
+    </header>
+</head>
+
+<body>
+
+  <div class="topnav">
+    <a href="./index.html">Home</a>
+    <a href="#">About</a>
+  </div>
+
+
+  <br>
+
+<div style="overflow:auto">
+  <div class="leftcolumn">
+    <br>
+  </div>
+
+  <div class="content">
+   <p>This page was created by Laura Keating as part of the submission to Founders and Coders.</p>
+  </div>
+
+
+<div class="right">
+  <br>
+</div>
+</div> 
+
+<div class="footer">
+  <p>You are visting this page, today: <b id="date"></b></p>
+  <p id="date"></p>
+  <script>
+    const d = new Date();
+    let text = d.toDateString();
+    document.getElementById("date").innerHTML = text; 
+  </script>
+</div>
+</body>
+</html>
